@@ -1,0 +1,25 @@
+{
+	"name": "bugblurb",
+	"title": "Bugblurb",
+	"description": "Add a blurb of biography section to an actor's image popout.",
+	"version": "0.0.4",
+	"minimumCoreVersion": "0.5.5",
+	"compatibleCoreVersion": "0.6.2",
+	"author": "Arietta",
+
+	"scripts": [],
+	"esmodules": ["main.js"],
+	"styles": ["dist/bugblurb.css"],
+
+	"languages": [
+		{
+		  "lang": "en",
+		  "name": "English",
+		  "path": "lang/en.json"
+		}
+	  ],
+	
+	"url": "https://github.com/hanhmchau/bugblurb",
+	"manifest": "https://raw.githubusercontent.com/hanhmchau/bugblurb/master/module.json",
+	"download": "https://github.com/hanhmchau/bugblurb/archive/0.0.1.zip"
+}
