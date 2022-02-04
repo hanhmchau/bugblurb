@@ -3,6 +3,7 @@
 class ImagePopoutWithBlurb {    
     static process(imagePopout, html, data) {
         const blurb = this._getBlurbIfExists(imagePopout);
+        console.warn(blurb);
         if (blurb) {
             const lightboxImage = $(html).find('.lightbox-image')[0];
             if (lightboxImage) {
